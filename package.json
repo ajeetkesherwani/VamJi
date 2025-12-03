@@ -1,0 +1,33 @@
+{
+  "name": "vamji",
+  "version": "1.0.0",
+  "description": "The Shuttle Booking Application for Ayodhya is a Node.js-based backend system designed to manage local shuttle transportation services for pilgrims, tourists, and residents visiting the city of Ayodhya. The application provides a reliable platform for booking seats, managing shuttle routes, tracking availability, and handling payments—all optimized for high traffic during peak pilgrimage seasons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajeetkesherwani/VamJi.git"
+  },
+  "keywords": [
+    "VAm",
+    "Ji"
+  ],
+  "author": "Ajeet Kesherwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajeetkesherwani/VamJi/issues"
+  },
+  "homepage": "https://github.com/ajeetkesherwani/VamJi#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1"
+  }
+}
